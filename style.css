@@ -117,4 +117,24 @@ h2{
   margin: 6px 25px 0px 25px;
 }
 
+.testimonial{
+  display: flex;
+  flex-direction: column;
+  background-color: #CFD2CF;
+  padding: 0 500px;
+}
+
+.testimonial p {
+  font-size: 36px;
+  color: #413F42;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: 'Roboto', arial;
+}
+.testimonial b {
+  padding-bottom: 20px;
+  padding-right: 10px;
+  font-family: 'Roboto', arial;
+  text-align: right;
+}
 
