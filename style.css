@@ -14,7 +14,8 @@ body {
 
 .header  {
     font-family: monospace;
-    background: #3AB4F2;
+    background: #A6D1E6;
+    color: #FEFBF6;
     padding: 8px;
     display: flex;
     align-items: center;
@@ -33,11 +34,12 @@ ul {
     margin: 0;
     padding: 0;
     gap: 50px;
+    font-size: 20px;
   }
 
 a  {
     text-decoration: none;
-    color: black;
+    color: #FEFBF6;
   }
 
 .button {
@@ -46,13 +48,13 @@ a  {
   font-size: 20px;
 }
   
-  .homepage {
-    display: flex;
-    color: #F9FAF8;
-    background-color: #3AB4F2;
-    align-items: center;
-    justify-content: center;
-    padding: 90px;
+.homepage {
+  display: flex;
+  color: #FEFBF6;
+  background-color: #3AB4F2;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
 }
 
 .homepage-info {
@@ -89,7 +91,7 @@ h1 {
 .homepage-img img {
   width: 500px;
   height: 350px;
-  padding: 100px
+  padding: 100px;
 }
 .homepage-content {
   align-items: center;
@@ -137,4 +139,47 @@ h2{
   font-family: 'Roboto', arial;
   text-align: right;
 }
+.modal {
+  background-color: #3AB4F2 ;
+  margin: 50px 200px;
+  padding: 19px 80px;
+  display: flex;
+  align-items: center;
+  border-radius: 80px;
+  border-color: none;
+}
+.sign-up-info {
+  flex: 1;
+}
+
+.sign-up-info {
+  text-align: left;
+}
+h3 {
+  color: #fff;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 30px 0px 0px 50px;
+}
+.sign-up-info p {
+  color: #fff;
+  opacity: 0.7;
+  margin: 5px 30px 30px 50px;
+}
+
+.sign-up-button button {
+  color: #fff;
+  font-family: sans-serif;
+  border-color: #fff;
+  border-radius: 8px;
+  background-color: #3AB4F2;
+  padding: 5px 25px;
+  font-size: 15px;
+}
+
+.copyright-info{
+  color: #3D3C42;
+  font-family: 'Roboto', arial;
+}
+
 
